@@ -1,7 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
 import {useState} from "react";
-const os = require('os');	
 
 function App() {
 
@@ -19,10 +18,7 @@ function App() {
       let resJson = await res.json();
       if (res.status === 200) {
         setTinyUrl("");
-
-        const networkInterfaces = os.networkInterfaces();
-        const ip = networkInterfaces['eth0'][0]['address']
-        let message = `http://${ip}:8000/${resJson["short_url"]}`
+        let message = `http://localhost:8000/${resJson["short_url"]}`
         setMessage(message);
       } else {
         setMessage("The URL provided is invalid.");
