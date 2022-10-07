@@ -1,0 +1,8 @@
+uvicorn
+asyncpg
+FastAPI
+validators
+PyYAML
+aiofiles
+python-multipart
+Jinja2==3.1.2

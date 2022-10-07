@@ -1,0 +1,7 @@
+# Your local PostgreSQL database set up
+user: postgres
+password: postgres
+database: postgres
+host: db
+
+#IP: 172.104.61.207
