@@ -7,6 +7,9 @@ Foobar is a Python library for dealing with word pluralization.
 Please make sure that you have Docker installed. 
 
 Please also make sure that this application is only hosted locally, as the short link generated on the website can only be copy pasted with `localhost`.
+
+Please note that the set-up instruction is also specifically tailored for **MacOS**.
+
 ## Installation
 
 First, clone this repository:
