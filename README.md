@@ -19,9 +19,10 @@ git init
 git clone https://github.com/vichannnnn/full-stack-url-shortener.git
 ```
 
-The entire application then can be started with just docker-compose:
+The entire application then can be started with just docker-compose after entering the root directory of the application:
 
 ```bash
+cd full-stack-url-shortener
 docker-compose up -d --build
 ```
 
