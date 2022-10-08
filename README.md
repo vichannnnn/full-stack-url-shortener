@@ -1,6 +1,6 @@
 # URL Shortener
 
-Foobar is a Python library for dealing with word pluralization.
+This is a MVP-scoped and POC of web application for URL Shortener.
 
 ## Prerequisites
 
